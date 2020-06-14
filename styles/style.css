@@ -1,0 +1,35 @@
+/*Mobile first*/ 
+/*width: 375*/ 
+body{
+	 background-image: url('../images/ruimte.png');
+	 background-size: cover;
+	 font-family:tahoma;
+	 color:white;
+	 margin: 0;
+	 padding:0;
+}
+
+/*Header: Logo bovenaan de pagina*/
+
+.spacelogo{
+	margin-top:20px;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.logo img{
+	max-width:100%;	
+}
+
+hr{
+	border-top: 3px solid #8a64b5;
+}
+/*section-one*/ 
+.section-1{
+
+}
+
+.section-2{
+	background-color: #8a64b5;
+}
