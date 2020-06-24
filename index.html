@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> SpaceX </title> 
 		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
-		 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
 		<script type="text/javascript" src="script/main.js"></script>  
 	</head>
 	<body>
@@ -16,24 +16,41 @@
 			</figure>
 		</header> 
 		
-		<hr />
 		
-		<section class="section-1"> 
-			<h1> </h1>
-			  <div id="donutchart" style="width: 900px; height: 500px;"></div>
+		<section class="astronaut"> 
+			<figure class="informatie">
+			  <img src="images/astronaut.png" alt="astronaut">
+			  <figcaption></figcaption>
+			</figure>
+			<h2> 100 PASSAGIERS </h2>
+		</section>
+			
+			
+		<section class="raketnaam"> 
+			<figure class="informatie">
+			  <img src="images/raket.png" alt="raket">
+			  <figcaption></figcaption>
+			</figure>
+			<h2> RAKET: BATTLECRUISER </h2>
 		</section>
 		
-		<section class="section-two"> 
-			<div></div>
-		</section>
-		
-		<section class="section-three"> 
-			<div></div>
-		</section>
-		
-		<section class="section-four"> 
-			<div></div>
-		</section>
-		
+		<div class="container">
+			<section class="section-one">
+				<h1> </h1>
+				  <div id="myChart"></div>
+			</section>
+			
+			<section class="section-two"> 
+				<div></div>
+			</section>
+			
+			<section class="section-three"> 
+				<div></div>
+			</section>
+			
+			<section class="section-four"> 
+				<div></div>
+			</section>
+		</div>
 	</body>
 </html>
