@@ -31,8 +31,8 @@
       data.addColumn('number', 'Afstand');
 
       data.addRows([
-        [0, 0],   [1, 50],  [2, 99],  [3, 110],  [4, 140],  [5, 180],
-        [6, 222],  [7, 250],  [8, 290]
+        [0, 0],   [1, 510],  [2, 830],  [3, 1110],  [4, 1330],  [5, 1599],
+        [6, 1800],  [7, 2220],  [8, 2630]
       ]);
 
       var options = {
@@ -48,9 +48,7 @@
 
       chart.draw(data, options);
     }
- 
- 
- 
+	
 
     google.charts.load("current", {packages:["corechart"]});
     google.charts.setOnLoadCallback(drawChart);
@@ -74,6 +72,7 @@
         chart.draw(data, options);
       }
 	  
+	  
     google.charts.load("current", {packages:["corechart"]});
     google.charts.setOnLoadCallback(drawChartTwo);
 
@@ -96,6 +95,7 @@
         var chart = new google.visualization.PieChart(document.getElementById('food_chart'));
         chart.draw(data, options);
       }
+	  
 	  
 	 google.charts.load('current', {'packages':['table']});
       google.charts.setOnLoadCallback(drawTable);
