@@ -5,7 +5,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title> SpaceX </title> 
 		<link rel="stylesheet" type="text/css" href="styles/style.css"/>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+		 <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 		<script type="text/javascript" src="script/main.js"></script>  
 	</head>
 	<body>
@@ -36,21 +36,38 @@
 		
 		<div class="container">
 			<section class="section-one">
-				<h1> </h1>
-				  <div id="myChart"></div>
-				  
+			  <div class="header-section">
+				<h1>Brandstof verbruik </h1>
+			  </div>
+			  <div id="curve_chart"></div>
 			</section>
 			
 			<section class="section-two"> 
-				<div></div>
+			    <div class="header-section">
+					<h1>Afstand van Aarde naar mars </h1>
+				</div>
+				<div id="line_chart"></div>
 			</section>
 			
 			<section class="section-three"> 
-				<div></div>
+				<div class="header-section">
+					<h1>Snacks </h1>
+				</div>
+				<div id="table_chart"></div>
 			</section>
 			
 			<section class="section-four"> 
-				<div></div>
+				<div class="header-section">
+					<h1>Etensvoorraad aanboord (in %)</h1>
+				</div>
+				<div id="food_chart"></div>
+			</section>
+			
+			<section class="section-five"> 
+			   <div class="header-section">
+				 <h1>Watervoorraad aanboord (in %)</h1>
+			   </div>
+				<div id="water_chart"></div>
 			</section>
 		</div>
 	</body>

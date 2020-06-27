@@ -1,6 +1,7 @@
 /*Mobile first*/ 
 /*width: 375*/ 
 body{
+	 background-color: #f5f5f5;
 	 font-family: century gothic, tahoma, sans-serif;
 	 color:white;
 	 margin: 0;
@@ -38,15 +39,39 @@ body{
 
 /* section: astronaut*/
 .astronaut, .raketnaam{
-	background-color: #42cef5; 
+	background-color: #47B7EB; 
 	text-align: center;
 	padding: 20px;
 	margin-top: 50px;
-	max-width: 400px;
+	max-width: 380px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .informatie > img {
 	width: 100px;
 	height: 100px;
 }
+
+.container > section{
+	max-width: 500px;
+	height: 340px;
+	background-color:white; 
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color:black;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.header-section > h1{
+  padding-top: 30px;
+  text-align: center;
+}
+
+#curve_chart, #line_chart, #table_chart, #water_chart, #food_chart{
+	width: 380px;
+	height: 220px;
+}
+
