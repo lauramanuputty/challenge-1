@@ -54,6 +54,10 @@ body{
 	height: 100px;
 }
 
+.container{
+	margin-bottom: 40px;
+}
+
 .container > section{
 	max-width: 500px;
 	height: 340px;
@@ -89,19 +93,20 @@ body{
 		align-items: center;
 		align-content:center;
 	}
-	
-	.container > .section-five{
-		min-width: 1072px;
-		margin-bottom: 20px;
-	}
 
 	.header-section > h1{
 		padding-top: 20px;
 	}
 	
-	#table_chart{
-		width: 900px;
+	.container > .section-five{
+	
 	}
+	
+	#table_chart{
+		width: 500px;
+	}
+	
+	
 }
 
 
@@ -120,11 +125,29 @@ body{
 	.container > section{
 		min-width: 440px;
 	}
+	
+	.container > .section-five{
+		max-width: 1072px;
+	}
+	
+	#table_chart{
+		width: 950px;
+	}
 }
 
 
 
 /*Desktop css*/
 @media only screen and (min-width: 1440px){
-
+	.astronaut, .rocket-name{
+		max-width: 640px;
+	}
+	
+	.container > .section-five{
+		width: 920px;
+	}
+	
+	#table_chart{
+		width: 800px;
+	}
 }
