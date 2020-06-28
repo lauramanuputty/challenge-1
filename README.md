@@ -8,4 +8,5 @@ zodat mensen de hoeveelheid kunnen zien dat er aanboord beschikbaar is.
 En als laatste heb ik ook nog een tabel chart gemaakt met snacks die ze kunnen kopen tijdens de reis, met de prijs en beschrikbaarheid. 
 Ik heb gekozen voor een rustig design, zodat de charts duidelijk zichtbaar en makkelijk te lezen zijn. 
 Ook is de site responsive en verplaatsen de sections als de browser verandert van grootte, zodat de ruimte zo goed mogelijk wordt benut. 
-Site: 
+Site: https://lauramanuputty.github.io/challenge-1/
+
